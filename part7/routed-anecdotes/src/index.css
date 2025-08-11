@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f8fa;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 800px;
+  margin: auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
+
+a {
+  color: #2c3e50;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #1a5276;
+  text-decoration: underline;
+}
+
+input, button {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  margin: 0.5rem 0.5rem 0.5rem 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #2d5aa7;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1a3b75;
+}
+
+.navbar {
+  background-color: #2d5aa7;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  color: white;
+  font-weight: bold;
+}
+
+.notification {
+  border-left: 6px solid green;
+  background-color: #e9fbe9;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+th, td {
+  padding: 1rem;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f0f0f0;
+}
